@@ -1,14 +1,9 @@
 # Quizizz-cheat
 
-There are 2 methods for retrieving answers.
-
-1. [Fetching Quizizz API](#fetching-quizizz-api)
-2. [Sending answers as someone else](#sending-answers-as-someone-else) (old method)
-
 # Methods
 ## Fetching Quizizz API
 
-It should work in Test and Classic mode.
+Instructions:
 1. Join Quiz
 2. Open console and paste this
 ```ts
@@ -16,7 +11,40 @@ fetch("https://raw.githubusercontent.com/Ryushigan/quizizz-cheat/master/dist/bun
 .then((res) => res.text()
 .then((t) => eval(t)))
 ```
-3. You can now close the console. The good answers should be highlighted by background opacity.
+3. You can now close the console and the correct answers should be highlighted by background opacity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Sending answers as someone else
 
