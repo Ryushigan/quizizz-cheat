@@ -1,48 +1,20 @@
 # Quizizz-cheat
 
-# Methods
+Script is made by "gbaranski".
+I only customized this based on my own preferences.
+
 ## Fetching Quizizz API
 
 Instructions:
-1. Join Quiz
-2. Open console and paste this
+1. Open quizizz and join any quiz
+2. Open console, copy and paste this
 ```ts
 fetch("https://raw.githubusercontent.com/Ryushigan/quizizz-cheat/master/dist/bundle.js")
 .then((res) => res.text()
 .then((t) => eval(t)))
 ```
-3. You can now close the console and the correct answers should be highlighted by background opacity.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+3. "Run" the script given above on the console
+4. The correct answers should be visible now, you can now close the console and continue your quiz
 
 
 
